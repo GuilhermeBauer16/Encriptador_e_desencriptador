@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador Chalenge</title>
+</head>
+
+    <body>
+        <header>
+
+                <img class="imagemLogo" src="imagem/logoAlura.png" alt="Logo da Alura">
+                <H1>Encriptador</H1>
+
+
+        </header>
+        <main>
+                <section>
+
+                    <textarea class="texto" cols="46" rows="14 " placeholder="Digite seu texto"
+                     required></textarea>
+
+                     <div>
+
+                        <h6>Porfavor digite apenas letras minúsculas e que não conteam acento!</h6>
+                     </div>
+
+                     <div clas="botoes">
+
+
+                        <button class="btn-encriptografar" onclick="btnEncriptar()">Criptografar</button>
+                        <button class="btn-desencriptografar" onclick="btnDescriptar()">Descriptografar</button>
+
+                    </div>
+                </section>
+
+                <section class="area-mensagem">
+                    <button class="btn-copiar" onclick="copia()">Copiar</button>
+                    <textarea style="background-image: url(imagem/boneco075.png)"class="mensagem" cols="20" rows="18"></textarea>
+                    <img class="texto-semMensagem"src="imagem/textoMensagem.png" onclick="btnDescriptar()" ondblclick="btnEncriptar()">
+           
+                </section>
+
+        </main>
+        <footer>
+            <img src="imagem/logoAlura.png" alt="Logo da Alura">
+            <p class="copyright">&copy;Criptografia e Descriptografia.By:Guilherme
+            <a href="https://www.linkedin.com/in/guilherme-bauer-desemvolvedor/" class="linkedin"target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/GuilhermeBauer16" class="github" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            </p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

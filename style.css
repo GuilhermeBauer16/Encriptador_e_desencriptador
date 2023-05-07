@@ -1,0 +1,196 @@
+* {
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+
+.imagemLogo {
+
+    margin-left: 60px;
+    padding-top: 30px;
+    width: 2.5%;
+}
+
+h1 {
+    font-size: 36px ;
+    text-align: center;
+    color: #0A3871;
+}
+
+main {
+    display: flex;
+    /* margin-bottom: 50px; */
+    margin-left: 100px ;
+}
+.texto{
+    border:none;
+    color: #0A3871;
+    margin-top: 70px;
+    text-transform: lowercase;
+    border-radius: 24px;
+}
+::placeholder {color: #0A3871;}
+    .texto:focus{
+        outline:none;
+    }
+
+.texto:hover{
+
+    background: #FFFFFF;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.texto:focus{
+    background-color: #FFFFFF;
+}
+.mensagem {
+
+    background-color: white;
+    background-image: url(imagem/boneco075.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border:none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 40px;
+    margin-top:10px;
+    padding-left: 20px;
+    position: flex;
+
+
+}
+
+.mensagem:focus{
+
+    outline: none;
+}
+h6 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+h6:before{
+    content: url(imagem/aviso.png);
+    margin-right: 5px;
+}
+.botoes{
+    display: flex;
+    margin-top:30px;
+
+    
+}
+
+.btn-encriptografar{
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 60px;
+    padding: 12px 80px;
+    margin-right: 10px;
+    border: none;
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.btn-desencriptografar{
+    border:solid 1px #0A3871;
+    display: inline-block;
+    font-size: 24px;
+    padding: 12px 60px;
+    border-radius: 24px;
+
+    color: #0A3871;
+    background-color: #E5E5E5;
+}
+
+.btn-encriptografar:hover {
+
+    background-color: green;
+    padding: 12px 55px;
+    cursor: pointer;
+    transition: 600ms;
+
+}
+
+.btn-desencriptografar:hover{
+
+    color: #FFFFFF;
+    padding: 12px 35px;
+    cursor: pointer;
+    transition: 600ms;
+    background: green;
+    border: none;
+
+}
+
+.area-mensagem{
+
+    position: relative;
+}
+
+.texto-semMensagem{
+
+    position: relative;
+    float: right;
+    bottom: 300px;
+    right: 105px;
+    background: #FFFFFF;
+
+}
+.btn-copiar{
+
+    color: #FFFFFF;
+    font-size: 24px;
+    border: none;
+    border-radius: 24px;
+    background: #0A3871 ;
+    position: relative;
+    padding: 12px  65px;
+    /* margin-left: 120px; */
+    float: right;
+    top :820px;
+    right:175px
+    
+
+}
+
+.btn-copiar:hover{
+
+    background: green;
+    cursor: pointer;
+    padding: 12px 50px;
+    transition: 600ms;
+}
+
+
+footer {
+    position: relative;
+    text-align: center;
+    padding: 4em;
+    bottom: 100px;
+
+}
+
+.copyright{
+    margin-top: 1em;
+    color: #0A3871;
+}
+
+
+.linkedin {
+
+    text-decoration: none;
+    color: #2f70bf;
+}
+
+.github {
+    text-decoration: none;
+    color: black;
+}
