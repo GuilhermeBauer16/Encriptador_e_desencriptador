@@ -2,9 +2,8 @@
     background: #E5E5E5;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 150%;
-
 }
 
 .imagemLogo {
@@ -13,28 +12,32 @@
     float: left;
     /* padding-top: 30px; */
     width: 2%;
-    bottom: 20px;
+    bottom: 30px;
 }
 
 
 h1 {
-    font-size: 36px ;
+    font-size: 42px ;
     text-align: center;
     color: #0A3871;
     padding-top: 30px;
 }
 
 main {
+    width: 1440px;
+    height: 1024px;
+
     display: flex;
     /* margin-bottom: 50px; */
-    margin-left: 100px ;
+    margin-left: 200px ;
 }
 .texto{
     border:none;
     color: #0A3871;
-    margin-top: 70px;
+    margin-top: 30px;
     text-transform: lowercase;
     border-radius: 24px;
+    
 }
 ::placeholder {color: #0A3871;}
     .texto:focus{
@@ -48,20 +51,19 @@ main {
     cursor: pointer;
 }
 
-.texto:focus{
+/* .texto:focus{
     background-color: #FFFFFF;
-}
+} */
 .mensagem {
 
     background-color: white;
     background-image: url(imagem/boneco075.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center 150px;
     border:none;
     border-radius: 24px;
     color: #0A3871;
     margin-left: 40px;
-    margin-top:10px;
     padding-left: 20px;
     position: flex;
 
@@ -74,7 +76,7 @@ main {
 }
 h6 {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 30px;
 
@@ -85,7 +87,7 @@ h6:before{
     margin-right: 5px;
 }
 .botoes{
-    display: flex;
+    display: relative;
     margin-top:30px;
 
     
@@ -141,9 +143,10 @@ h6:before{
 
 .texto-semMensagem{
 
+    width: 300px;
     position:absolute;
     float: right;
-    bottom: 220px;
+    bottom: 540px;
     right: 105px;
     background: #FFFFFF;
 
@@ -159,8 +162,8 @@ h6:before{
     padding: 12px  65px;
     /* margin-left: 120px; */
     float: right;
-    top :820px;
-    right:175px
+    right:160px;
+    bottom: 100px;
     
 
 }
@@ -182,11 +185,17 @@ h6:before{
 
 
 footer {
+
     position: relative;
     text-align: center;
-    padding: 4em;
-    /* bottom: 150px; */
+    padding: 20px;
+    bottom: 300px;
 
+}
+
+footer img {
+
+    width: 1.5%;
 }
 
 .copyright{

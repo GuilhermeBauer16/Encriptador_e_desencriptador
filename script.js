@@ -76,7 +76,7 @@ function copia(){
 
     setTimeout(function() {
       btnCopiar.innerHTML = nomeOriginal;
-    }, 2000);
+    }, 2000);  
 
 
 
