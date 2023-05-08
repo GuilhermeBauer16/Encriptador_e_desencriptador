@@ -1,6 +1,8 @@
 const textArea = document.querySelector(".texto");
 const mensagem = document.querySelector('.mensagem');
 const textoMensagem = document.querySelector(".texto-semMensagem")
+const btnCopiar = document.querySelector(".btn-copiar")
+
 
 // As "chaves" de criptografia que utilizaremos são:
 // A letra "e" é convertida para "enter"
@@ -27,7 +29,7 @@ function encriptar(stringEncriptada){
         if (stringEncriptada.includes(matrizCodigo[i][0])){
 
             stringEncriptada = stringEncriptada.replaceAll(matrizCodigo[i][0], matrizCodigo[i][1]);
-            textoMensagem.src = "";
+            textoMensagem.src = "   ";
             mensagem.style.backgroundImage = "none";
 
         }
@@ -68,8 +70,17 @@ function descriptar(stringDesencriptada){
 function copia(){
     textArea.value = mensagem.value
     mensagem.value = ""
-    
+    var nomeOriginal = btnCopiar.innerHTML;
+
+    btnCopiar.innerHTML = "Copiado";
+
+    setTimeout(function() {
+      btnCopiar.innerHTML = nomeOriginal;
+    }, 2000);
+
 
 
 }
+
+
 

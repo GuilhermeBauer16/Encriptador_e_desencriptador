@@ -8,16 +8,20 @@
 }
 
 .imagemLogo {
-
-    margin-left: 60px;
-    padding-top: 30px;
-    width: 2.5%;
+    position: relative;
+    left: 50px;
+    float: left;
+    /* padding-top: 30px; */
+    width: 2%;
+    bottom: 20px;
 }
+
 
 h1 {
     font-size: 36px ;
     text-align: center;
     color: #0A3871;
+    padding-top: 30px;
 }
 
 main {
@@ -137,9 +141,9 @@ h6:before{
 
 .texto-semMensagem{
 
-    position: relative;
+    position:absolute;
     float: right;
-    bottom: 300px;
+    bottom: 220px;
     right: 105px;
     background: #FFFFFF;
 
@@ -161,6 +165,13 @@ h6:before{
 
 }
 
+/* .btn-copiar-click {
+
+    background: red;
+    color: #FFFFFF;
+
+} */
+
 .btn-copiar:hover{
 
     background: green;
@@ -174,7 +185,7 @@ footer {
     position: relative;
     text-align: center;
     padding: 4em;
-    bottom: 100px;
+    /* bottom: 150px; */
 
 }
 
