@@ -21,6 +21,7 @@ h1 {
     text-align: center;
     color: #0A3871;
     padding-top: 30px;
+
 }
 
 main {
@@ -168,13 +169,6 @@ h6:before{
 
 }
 
-/* .btn-copiar-click {
-
-    background: red;
-    color: #FFFFFF;
-
-} */
-
 .btn-copiar:hover{
 
     background: green;
@@ -189,7 +183,7 @@ footer {
     position: relative;
     text-align: center;
     padding: 20px;
-    bottom: 300px;
+    bottom: 250px;
 
 }
 
