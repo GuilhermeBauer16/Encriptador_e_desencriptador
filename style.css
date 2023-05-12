@@ -266,7 +266,7 @@ footer img {
     }
     .area-mensagem{
         position: absolute;
-        top: 55%;
+        top: 31rem;
     }
 
     .mensagem{
@@ -276,7 +276,7 @@ footer img {
         background-position: center 1rem;
         background-size: 40% 40%;
         height:16rem;
-
+        right: 0.1rem;
         
 
     }
@@ -295,7 +295,7 @@ footer img {
 
     footer{
         font-size: 0.9rem;
-        bottom: 10rem;
+        bottom: 7rem;
 
 
 
