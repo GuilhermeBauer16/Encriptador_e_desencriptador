@@ -3,31 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
     <title>Decodificador Chalenge</title>
+    
+    <style>
 
-     <style>
-        @media screen and (min-width: 768){
-            
+        html {
+          zoom: 80%;
         }
-     </style>
+
+ </style>
 </head>
 
     <body>
 
-        <style>
-            html {
-              zoom: 80%;
-            }
-        </style>
+ 
+
         <header>
                 <H1>Encriptador</H1>
-                <img class="imagemLogo" src="imagem/logoAlura.png" alt="Logo da Alura">
+                <img class="imagemLogo" style= "max-width: 100%" src="imagem/logoAlura.png" alt="Logo da Alura">
 
 
 
@@ -35,15 +34,15 @@
         <main>
                 <section>
 
-                    <textarea class="texto" cols="66" rows="12" placeholder="Digite seu texto"
+                    <textarea class="texto" cols="80%" rows="12%" placeholder="Digite seu texto"
                      required></textarea>
 
                      <div>
 
-                        <h6>Por favor, digite apenas letras minúsculas e que não contenham acento!</h6>
+                        <h6>Apenas letras minúsculas e que não contenham acento!</h6>
                      </div>
 
-                     <div clas="botoes">
+                     <div class="botoes">
 
 
                         <button class="btn-encriptografar" onclick="btnEncriptar()">Criptografar</button>
@@ -54,15 +53,15 @@
 
                 <section class="area-mensagem">
 
-                    <textarea style="background-image: url(imagem/boneco075.png)"class="mensagem" cols="24" rows="16"></textarea>
-                    <img class="texto-semMensagem"src="imagem/textoMensagem.png">
+                    <textarea style="background-image: url(imagem/boneco075.png)"class="mensagem" cols="24%" rows="16%"></textarea>
+                    <img  style= "max-width: 100%"class="texto-semMensagem"src="imagem/textoMensagem.png">
                     <button class="btn-copiar" onclick="copia()">Copiar</button>
            
                 </section>
 
         </main>
         <footer>
-            <img src="imagem/logoAlura.png" alt="Logo da Alura">
+            <img style= "max-width: 100%" src="imagem/logoAlura.png" alt="Logo da Alura">
             <p class="copyright">&copy;Criptografia e Descriptografia.By:Guilherme
             <a href="https://www.linkedin.com/in/guilherme-bauer-desemvolvedor/" class="linkedin"target="_blank">
                 <i class="fab fa-linkedin"></i>
