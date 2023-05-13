@@ -301,8 +301,10 @@ footer img {
     }
 
     footer{
-        position: relative ;
-        font-size: 0.9rem;
+        position: absolute ;
+        font-size: 1rem;
+        top: 49rem;
+        margin-left: 1.2rem;
 
     }
     footer img {
