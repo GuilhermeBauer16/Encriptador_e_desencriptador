@@ -4,7 +4,7 @@ html,body{
     width: 100%;
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
+
 
 }
 * {
@@ -143,10 +143,10 @@ h6:before{
 
 .texto-semMensagem{
 
-    width: 60%;
+    width: 70%;
     position:absolute;
-    bottom: 35%;
-    right: 14%;
+    bottom: 13rem;
+    right: 2rem;
     background: #FFFFFF;
 
 }
@@ -159,8 +159,8 @@ h6:before{
     background: #0A3871 ;
     position: relative;
     padding: 0.75rem  4.1rem;
-    left: 30%;
-    bottom: 12%;
+    left: 7rem;
+    bottom: 4rem;
     
 
 }
@@ -178,8 +178,6 @@ footer {
 
     position: relative;
     text-align: center;
-    bottom: 2rem;
-
 
 }
 
@@ -288,21 +286,21 @@ footer img {
 
     .texto-semMensagem{
         width: 60%;
-        right: 6rem;
+        right: 5rem;
         top: 9rem;
 
     }
 
     .btn-copiar{
         bottom: 2rem;
-        left: 7rem;
+        left: 6rem;
         padding: 0.7rem  4rem ;
         font-size: 1rem;
     }
 
     footer{
         position: absolute ;
-        font-size: 1rem;
+        font-size: 0.9rem;
         top: 49rem;
         margin-left: 1.2rem;
 
