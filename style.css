@@ -159,7 +159,7 @@ h6:before{
     background: #0A3871 ;
     position: relative;
     padding: 0.75rem  4.1rem;
-    left: 7.3rem;
+    left: 7rem;
     bottom: 4rem;
     
 
@@ -225,9 +225,9 @@ footer img {
     .texto{
         margin-top: 1rem;
         display: flex;
-        margin: 1.2rem;
-        box-sizing: border-box;
-        width: 80% ;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+        width: 82% ;
         height: 15rem;
 
         font-size: 1.5rem;
@@ -273,12 +273,14 @@ footer img {
         top: 1rem;
         position:relative;
         display: flex;
-        width: 166%;
-        margin: 1.2rem;
+        width: 82%;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
         height:22rem;
         background-position: center 1rem;
         background-size: 40% 40%;
         height:16rem;
+        right: 0.1rem;
 
     }
 
@@ -298,17 +300,12 @@ footer img {
 
     footer{
         position: absolute ;
-        height: 4rem;
         font-size: 0.9rem;
-        left: 0;
-        bottom: 0;
-        padding: 1rem;
+        top: 49rem;
         margin-left: 1.2rem;
 
     }
     footer img {
         width: 4%;
-
-    }  
-}   
-
+    }
+} 
