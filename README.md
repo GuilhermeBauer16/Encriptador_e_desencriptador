@@ -1,7 +1,7 @@
 # Challenge-Encriptador
 Um sistema de criptar e descriptar uma simples mensagem!
 
-Bem vindos ao  meut primeiro projeto!
+Bem vindos ao  meu primeiro projeto!
 
 Neste projeto você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
 
