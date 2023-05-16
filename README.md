@@ -5,7 +5,7 @@ Bem vindos ao  meut primeiro projeto!
 
 Neste projeto você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
 
-As "chaves" de criptografia que utilizaremos foram:
+As "chaves" de criptografia que utilizamos foram:
 
 A letra "e" é convertida para "enter"
 
