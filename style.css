@@ -1,103 +1,94 @@
-html,body{
-    height: 100%;
-    max-width: 100vw;
-    width: 100%;
+body {
     margin: 0;
     padding: 0;
-
-
-}
-* {
     background: #E5E5E5;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 100%;
-    margin: 0;
-    padding: 0;
+    font-size: 1.8rem;
+    display: grid;
+    grid-template-columns: 1fr;
+
 }
 
 .imagemLogo {
     position: relative;
-    left: 5%;
-    width: 2%;
+    left: 3%;
+    width: 1.8%;
     bottom: 1.5rem;
 }
 
 h1 {
-
-    font-size:2.3rem ;
+    font-size: 2rem;
     text-align: center;
     color: #0A3871;
     padding-top: 1rem;
+}
 
-}
-main{
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-.texto{
-    margin-left:4% ;
-    border:none;
+
+.texto {
+    margin-left: 4%;
+    font-size: 1.5rem;
+    border: none;
     color: #0A3871;
     text-transform: lowercase;
     border-radius: 24px;
-    padding-left: 2rem;
-    
+
+
 }
-::placeholder {color: #0A3871;}
-    .texto:focus{
-        outline:none;
-    }
 
-.texto:hover{
+::placeholder {
+    color: #0A3871;
+}
 
+.texto:focus {
+    outline: none;
+}
+
+.texto:hover {
     background: #FFFFFF;
     transition: 400ms;
     cursor: pointer;
 }
 
 .mensagem {
-
+    font-size: 1.5rem;
+    top: 14%;
+    left: 74%;
+    position: absolute;
     background-color: white;
-    background-image: url(imagem/boneco075.png);
+    background-image: url(imagem/boneco+texto.png);
     background-repeat: no-repeat;
-    background-size: 50% 50%;
+    background-size: 80% 60%;
     background-position: center 80px;
-    border:none;
+    border: none;
     border-radius: 24px;
     color: #0A3871;
-    margin-left: 7%;
-    padding: 1rem;
-    display: flex;
 
 }
 
-.mensagem:focus{
-
+.mensagem:focus {
     outline: none;
 }
+
 h6 {
-    margin-left:8% ;
+    margin-left: 4%;
     display: inline-flex;
     margin-top: 1rem;
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 1rem;
-
 }
 
-h6:before{
+h6:before {
     content: url(imagem/aviso.png);
     margin-right: 5px;
 }
 
-.btn-encriptografar{
-    font-size: 1.6rem;
-    display: inline-flex ;
-    padding: 0.75rem  4.2rem;
-    margin-left: 15rem ;
+.btn-encriptografar {
+    font-size: 1.5rem;
+    display: inline-flex;
+    padding: 0.6rem 3rem;
+    margin-left: 18%;
     border: none;
     background-color: #0A3871;
     color: #FFFFFF;
@@ -105,92 +96,64 @@ h6:before{
     margin-right: 1rem;
 }
 
-.btn-desencriptografar{
-    border:solid 1px #0A3871;
+.btn-desencriptografar {
+    border: solid 1px #0A3871;
     display: inline-flex;
-    font-size: 1.55rem;
-    padding: 0.75rem 3.8rem;
+    font-size: 1.5rem;
+    padding: 0.6rem 2.5rem;
     border-radius: 24px;
-
     color: #0A3871;
     background-color: #E5E5E5;
 }
 
 .btn-encriptografar:hover {
-
     background-color: green;
-    padding: 0.75rem 3rem;
     cursor: pointer;
     transition: 600ms;
+} 
 
-}
-
-.btn-desencriptografar:hover{
-
+.btn-desencriptografar:hover {
     color: #FFFFFF;
-    padding: 0.75rem 2rem;
     cursor: pointer;
     transition: 600ms;
     background: green;
     border: none;
-
 }
 
-.area-mensagem{
-
-    position: relative;
-}
-
-.texto-semMensagem{
-
-    width: 70%;
-    position:absolute;
-    bottom: 13rem;
-    right: 2rem;
-    background: #FFFFFF;
-
-}
-.btn-copiar{
-
+.btn-copiar {
+    display: flex;
     color: #FFFFFF;
     font-size: 1.5rem;
     border: none;
     border-radius: 24px;
-    background: #0A3871 ;
+    background: #0A3871;
     position: relative;
-    padding: 0.75rem  4.1rem;
-    left: 7rem;
-    bottom: 4rem;
-    
-
+    padding: 0.6rem 3rem;
+    left: 80%;
+    bottom: 5%;
+    position: absolute;
 }
 
-.btn-copiar:hover{
-
+.btn-copiar:hover {
     background: green;
     cursor: pointer;
-    padding: 0.75rem 3.5rem;
     transition: 600ms;
 }
 
-
 footer {
-
+    font-size: 1rem;
     position: relative;
     text-align: center;
-
+    margin: 2rem;
 }
 
 footer img {
-
     width: 1.5%;
 }
 
-.copyright{
-    margin-top: 1em;
-    color: #0A3871;
+.copyright {
+    padding-top: 0.5rem ;
 }
-
 
 .linkedin {
 
@@ -203,109 +166,149 @@ footer img {
     color: black;
 }
 
-@media screen and (max-width: 600px){
+@media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
 
-    .imagemLogo{
-        display: flex;
-        width: 5%;
+    body {
 
-        margin-top: 1rem;
-        left: 2rem;
-
+        margin: 0;
+        padding: 0;
     }
 
-    h1{
+    .imagemLogo {
+        display: flex;
+        width: 4%;
+        left: 1rem;
+    }
+
+    h1 {
         top: 1rem;
-        position: relative;
-        font-size:1.8rem ;
-        justify-content: center ;
-        right: 1rem;
+        font-size: 1.3rem;
+
     }
 
-    .texto{
-        margin-top: 1rem;
+    .texto {
         display: flex;
-        margin-left: 1.2rem;
-        margin-right: 1.2rem;
-        width: 82% ;
+        width: 91%;
         height: 15rem;
-
         font-size: 1.5rem;
-
     }
 
-    h6{
-        font-size: 0.72rem;
+    h6 {
+        font-size: 0.7rem;
         display: flex;
-        margin-left:0.5rem;
+        margin-left: 7%;
+    }
+.botoes{
+    display: flex;
+    justify-content:space-around;
+    margin-right: 14%;
 
+}
+    .btn-encriptografar {
+        margin-right: 0.5rem;
+        padding: 0.7rem 1.5rem;
+        font-size: 1.1rem;
     }
 
-    .btn-encriptografar{
-        display: inline-flex;
-        padding: 0.7rem 2rem;
-        margin-left: 1.5rem;
-        font-size: 1rem;
-    }
-
-    .btn-desencriptografar{
-        display: inline-flex;
-        font-size: 1rem;
+    .btn-desencriptografar {
+        font-size: 1.1rem;
         padding: 0.7rem 1rem;
-    }
-
-    .btn-encriptografar:hover{
-        padding: 0.7rem 1.8rem;
 
     }
 
-    .btn-desencriptografar:hover{
-        padding: 0.7rem 0.8rem;
-
-    }
-    .area-mensagem{
-        position: absolute;
-        top: 29rem;
-
+    .btn-desencriptografar , .btn-encriptografar{
+        z-index: 1;
     }
 
-    .mensagem{
-        top: 1rem;
-        position:relative;
-        display: flex;
-        width: 82%;
-        margin-left: 1.2rem;
-        margin-right: 1.2rem;
-        height:22rem;
+
+    .mensagem {
+        position: relative;
+        z-index: 2;
+        top: 50%;
+        height: 16rem;
+        width: 91%;
+        transform: none;
+        margin-top: 2rem;
+        margin-left: 4%;
+        left: auto;
         background-position: center 1rem;
-        background-size: 40% 40%;
-        height:16rem;
-        right: 0.1rem;
+        background-size: 80% 80%;
 
     }
 
-    .texto-semMensagem{
-        width: 60%;
-        right: 5rem;
-        top: 9rem;
-
-    }
-
-    .btn-copiar{
-        bottom: 2rem;
-        left: 6rem;
-        padding: 0.7rem  4rem ;
+    .btn-copiar {
+        margin-top: 1rem;
+        position:relative ;
+        padding: 0.7rem 4rem;
         font-size: 1rem;
-    }
+        z-index: 3;
+        transform: translate(-115%);
 
-    footer{
-        position: absolute ;
+    }
+    footer {
+        z-index: 4;
         font-size: 0.9rem;
-        top: 49rem;
-        margin-left: 1.2rem;
-
+        padding: 1rem;
     }
+
     footer img {
         width: 4%;
     }
-} 
+
+}
+
+/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    .imagemLogo {
+        width: 3%;
+        left: 2rem;
+    }
+
+    .texto {
+        margin-top: 1rem;
+        font-size: 1.6rem;
+        transform: none;
+    }
+
+    h6 {
+        font-size: 0.85rem;
+    }
+
+    .btn-encriptografar {
+        font-size: 1.4rem;
+        padding: 0.65rem 3.8rem;
+    }
+
+    .btn-desencriptografar {
+        font-size: 1.4rem;
+        padding: 0.65rem 3.5rem;
+    }
+
+    .mensagem {
+        margin: 1.2rem;
+        background-size: 35% 35%;
+        height: 18rem;
+    }
+
+    .texto-semMensagem {
+        width: 70%;
+        right: 2rem;
+        top: 13rem;
+    }
+
+    .btn-copiar {
+        padding: 0.65rem 4rem;
+        font-size: 1.3rem;
+    }
+
+    footer {
+        height: 4rem;
+        font-size: 0.85rem;
+        padding: 1rem;
+        margin-left: 1.2rem;
+    }
+} */
