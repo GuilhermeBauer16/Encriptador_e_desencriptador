@@ -257,10 +257,16 @@ footer img {
 
 }
 
-/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
 
     h1 {
-        font-size: 1rem;
+        font-size: 2rem;
+        text-align: center;
     }
 
     .imagemLogo {
@@ -269,16 +275,16 @@ footer img {
     }
 
     .texto {
-        margin-top: 1rem;
-        font-size: 1.6rem;
-        transform: none;
+        width: 91%;
+        height: 25rem;
     }
 
     h6 {
-        font-size: 0.85rem;
+        font-size: 1rem;
     }
 
     .btn-encriptografar {
+        margin-top: 1rem;
         font-size: 1.4rem;
         padding: 0.65rem 3.8rem;
     }
@@ -288,27 +294,46 @@ footer img {
         padding: 0.65rem 3.5rem;
     }
 
-    .mensagem {
-        margin: 1.2rem;
-        background-size: 35% 35%;
-        height: 18rem;
+    .btn-encriptografar , .btn-desencriptografar{
+        z-index: 1;
     }
-
-    .texto-semMensagem {
-        width: 70%;
-        right: 2rem;
-        top: 13rem;
+    .mensagem {
+        margin-top: 2rem;
+        z-index: 2;
+        width: 91%;
+        height: 26rem;
+        position: relative;
+        background-size: 75% 75%;
+        background-position: center center ;
+        left: 4%;
     }
 
     .btn-copiar {
-        padding: 0.65rem 4rem;
-        font-size: 1.3rem;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        position: relative;
+        z-index: 3;
+        padding: 1rem 5rem;
+        transform: translate(-160%);
     }
 
     footer {
-        height: 4rem;
-        font-size: 0.85rem;
-        padding: 1rem;
-        margin-left: 1.2rem;
+        z-index: 4;
+        font-size: 1.2rem;
     }
-} */
+
+    footer img {
+
+        width: 4%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    body {
+      display: none;
+    }
+    
+    .mensagem {
+      display: none;
+    }
+}
