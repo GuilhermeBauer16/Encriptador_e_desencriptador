@@ -14,8 +14,6 @@ Neste projeto, você poderá trocar mensagens secretas com outras pessoas que sa
 
 As chaves de criptografia utilizadas no projeto foram as vogais do alfabeto romano..
 
-<br> 
-
 ## Chaves de Criptografia: 
 
 *  A letra "e" -> sera convertida para -> "enter"
