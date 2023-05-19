@@ -1,6 +1,5 @@
 const textArea = document.querySelector(".texto");
 const mensagem = document.querySelector('.mensagem');
-const textoMensagem = document.querySelector(".texto-semMensagem")
 const btnCopiar = document.querySelector(".btn-copiar")
 
 
@@ -29,7 +28,6 @@ function encriptar(stringEncriptada){
         if (stringEncriptada.includes(matrizCodigo[i][0])){
 
             stringEncriptada = stringEncriptada.replaceAll(matrizCodigo[i][0], matrizCodigo[i][1]);
-            textoMensagem.src = "   ";
             mensagem.style.backgroundImage = "none";
 
         }
@@ -57,7 +55,6 @@ function descriptar(stringDesencriptada){
 
         if (stringDesencriptada.includes(matrizCodigo[i][1])){
             stringDesencriptada = stringDesencriptada.replaceAll(matrizCodigo[i][1], matrizCodigo[i][0]);
-            textoMensagem.src = "";
             mensagem.style.backgroundImage = "none";
         }
     }
